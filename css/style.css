@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(210, 231, 239);
+}
+header{
+    height: inherit;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+nav{
+    display: flex;
+    align-items: flex-end;
+    padding: 0px 1px 2px 388px;
+}
+nav ul{
+    height: 134px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+nav ul li{
+    list-style: none; 
+    padding: 0 23px;
+}
+
+nav ul li a{
+    color: rgb(21, 19, 19);
+    text-decoration: none;
+    transition: all 0.4s linear;
+}
+nav ul li a:hover
+{
+    color: blue;
+
+}
+main{
+    height:fit-content ;
+    display: flex;
+    padding-left: 315px;
+    padding-top: 70px;
+}
+.size {
+    border-radius: 50%;
+    width: 349px;
+}
+h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 60px;
+}
+samp{
+    font-size: 30px;
+}
+.set
+{
+    padding-left: 50px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+    padding: 10px 50px;
+    height: 72px;
+    background-color:black;
+    color:white
+}
+.foot{
+    border-radius: 100%;
+    width: 39px;
+    height: 35px;
+}
+.foot-cl{
+    display: flex;
+    padding: 0 50px;
+}
+.line{
+    line-height: 10px;
+}
+.ani{
+    font-size: 1cm;
+    letter-spacing: 10px;
+    font-family: monospace;
+    /* border-right: 5px solid; */
+    width: 100%;
+    overflow: hidden;
+    animation: 
+        typing 5s steps(12),
+         cursor  .4s step-end infinite alternate;  
+}
+@keyframes cursor {
+    50%{border-color: transparent;}
+}
+@keyframes typing {
+    from{ width: 0 }
+}
